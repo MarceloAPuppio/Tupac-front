@@ -31,19 +31,19 @@
         <dialog class="modal__login" open>        
             <form action="#" autocomplete="off" class="modal__login__form">
                 <div class="form-body">
-                    <label for="">
-                        <span>Nombre</span>
-                        <input type="text">
+                    <label for="" class="form-body__label">
+                        <input  class="form-body__input" type="text" placeholder="Nombre">
+                        <span class="form-body__span">Nombre</span>
                     </label>
-                    <label for="">
-                        <span>Password</span>
-                        <input type="password">
+                    <label for="" class="form-body__label">
+                        <input  class="form-body__input" type="password" placeholder="Password">
+                        <span class="form-body__span">Password</span>
                     </label>
                 </div>
                 <div class="form-footer">
-                    <input type="checkbox">
-                    <button>Entrar</button>
-                    <span>¿Olvidaste tus datos?</span>            
+                    <!-- <input type="checkbox"> -->
+                    <button class="form-submit">Entrar</button>
+                    <a href="#">¿Olvidaste tus datos?</a>            
                 </div>
             </form>
         </dialog>    
